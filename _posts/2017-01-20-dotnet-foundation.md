@@ -22,7 +22,7 @@ Elle est une organisation indépendante qui favorise le développement et la col
 Elle sert également de forum pour les développeurs communautaires et les commerciaux afin d'élargir et de renforcer l'avenir de l'écosystème .NET en favorisant l'ouverture et la participation communautaire  afin d'encourager l'innovation.  
 
 <p align="center">
-    <img src="https://cdn.rawgit.com/dotnet/swag/tree/master/logo" alt="dotnet foundation logo">
+    <img src="https://cdn.rawgit.com/dotnet/swag/43d94f3a/logo/dotnetfoundation_v4_horizontal.png" alt="dotnet foundation logo">
 </p>  
 
 En 2016, Github a annoncé que Microsoft était l'organisation qui avait le plus de contributeurs (devançant facebook et Google) :  
