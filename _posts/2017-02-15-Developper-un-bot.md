@@ -26,14 +26,14 @@ Pour commencer, vous devez :
  4. Ouvrir VS et créer un nouveau projet C# avec ce nouveau Bot Application template   
 
 <p align="center">
-    <img src="\img\BotApp.png" alt="chart" style="width: 100%; height: 100%"/>
+    <img src="https://cdn.rawgit.com/MarouanRejeb/marouanrejeb.github.io/f7eb51fd/img/BotApp.png" alt="chart" style="width: 100%; height: 100%"/>
 </p>  
 
 Ce template est un exemple fonctionnel, sous forme de **REST API**, de ce qu'on appelle un **Echo bot** qui va retourner l'entrée utilisateur.
 La méthode **POST** (Controllers\MessagesController.cs) est la fonctionnalité de base de cet exemple :  
 
 <p align="center">
-    <img src="\img\botcode.png" alt="chart" style="width: 100%; height: 100%"/>
+    <img src="https://cdn.rawgit.com/MarouanRejeb/marouanrejeb.github.io/f7eb51fd/img/botcode.png" alt="chart" style="width: 100%; height: 100%"/>
 </p>  
 
 Quand on build et on lance le bot, un navigateur se lance (Microsoft Edge dans cet exemple) qui va héberger notre programme
@@ -41,7 +41,7 @@ avec l'adresse _http://localhost:3979/_ .
 Le message affiché peut-être modifié (le fichier _default.htm_) :  
 
 <p align="center">
-    <img src="\img\botlocalhost.png" alt="chart" style="width: 100%; height: 100%"/>
+    <img src="https://cdn.rawgit.com/MarouanRejeb/marouanrejeb.github.io/f7eb51fd/img/botlocalhost.png" alt="chart" style="width: 100%; height: 100%"/>
 </p>  
 
 #### Comment tester notre Bot ?  
@@ -51,14 +51,14 @@ Ici, on va spécifier l'adresse locale qu'on a eu au lancement du bot :
 <i class="fa fa-hand-o-right" aria-hidden="true"></i>  localhost:3979/**api/message**
 
 <p align="center">
-    <img src="\img\botemulatorconfig.png" alt="chart" style="width: 100%; height: 100%"/>
+    <img src="https://cdn.rawgit.com/MarouanRejeb/marouanrejeb.github.io/f7eb51fd/img/botemulatorconfig.png" alt="chart" style="width: 100%; height: 100%"/>
 </p> 
 
 Pour le moment, on va laisser les deux champs _App ID_ et _App Pwd_ vides car on va tester notre bot en local 
 (on verra leurs utilisation dans un prochain article). Alors, on teste ?  
 
 <p align="center">
-    <img src="\img\botresult.png" alt="chart" style="width: 100%; height: 100%"/>
+    <img src="https://cdn.rawgit.com/MarouanRejeb/marouanrejeb.github.io/f7eb51fd/img/botresult.png" alt="chart" style="width: 100%; height: 100%"/>
 </p>  
 
 Tatataaa ! Voilà notre echo bot, qui nous répond <i class="fa fa-android" aria-hidden="true"></i>  
