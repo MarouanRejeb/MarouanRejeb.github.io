@@ -67,7 +67,7 @@ Tatataaa ! Voilà notre echo bot, qui nous répond <i class="fa fa-android" aria
 Dans cet article, on a vu comment développer et tester localement un simple echo bot en utilisant Microsoft Bot Framework.
 Je vous invite à [télécharger][sdk] le **[Bot Builder][builder] SDK** depuis sa page Github qui contient plusieurs autres exemples.  
 
-Dans le prochain article, on va déployer notre bot dans Azure. A bientôt !
+Dans le prochain article, on va rendre notre bot plus intélligent. A bientôt !
 
 [dev]: https://dev.botframework.com/
 [builder]: https://github.com/Microsoft/BotBuilder
