@@ -94,7 +94,7 @@ Dans le prochain article, on va rendre notre bot plus intélligent. Si vous avez
 [emulator]: https://aka.ms/bf-bc-emulator
 
 [BotApp]: https://cdn.rawgit.com/MarouanRejeb/marouanrejeb.github.io/f7eb51fd/img/BotApp.png
-[archi]:  /img/archi.png
+[archi]:  https://cdn.rawgit.com/MarouanRejeb/marouanrejeb.github.io/5a5b3e52/img/archi.png
 [botcode]: https://cdn.rawgit.com/MarouanRejeb/marouanrejeb.github.io/f7eb51fd/img/botcode.png
 [botlocalhost]: https://cdn.rawgit.com/MarouanRejeb/marouanrejeb.github.io/f7eb51fd/img/botlocalhost.png
 [botemulatorconfig]: https://cdn.rawgit.com/MarouanRejeb/marouanrejeb.github.io/f7eb51fd/img/botemulatorconfig.png
