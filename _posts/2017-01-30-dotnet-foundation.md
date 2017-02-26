@@ -33,10 +33,14 @@ En 2016, Github a annoncé que Microsoft était l'organisation qui avait le plus
 
 Aujourd'hui, plusieurs produits Microsoft sont totalement open source, je cite par exemple : [Visual Studio Code][code] ou [Roslyn][roslyn] (.Net platform compiler).  
 
+---
+
 #### Liens utiles (Github) :  
  * [.Net foundation][dotnet]
  * [Microsoft][MS]
  * [ASP.NET][asp]  
+
+---
 
 #### Comment ça se passe ?  
 Vous pouvez participer aux différents projets, en proposant des nouvelles fonctionnalités, en signalant des bugs ou en soumettant une correction.  
