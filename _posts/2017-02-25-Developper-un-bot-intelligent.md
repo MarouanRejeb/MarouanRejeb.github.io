@@ -102,7 +102,7 @@ Avec ce résultat, LUIS nous dit que pour notre phrase "Il fait comment à Paris
 
 #### Comment intégrer LUIS à notre bot ?  
 
-Dans le projet que j'ai créé (disponible sur Github), j'ai intégré LUIS en utilisant deux méthodes (C'est pour ça que les réponses du bot seront en double). Ici, je vais expliquer la méthode utilisant `LuisDialog` :  
+Dans le projet que j'ai créé ([disponible sur Github][source]), j'ai intégré LUIS en utilisant deux méthodes (C'est pour ça que les réponses du bot seront en double). Ici, je vais expliquer la méthode utilisant `LuisDialog` :  
 
 On crée une classe qui va hériter de `LuisDialog` et qu'on va décorer avec l'attribut `LuisModel` dans lequel on va spécifier l'ID de notre modèle (model id) et la clé de l'abonement (subscription key) afin de mapper directement notre application au modèle LUIS. Ensuite, on crée autant de méthodes que d'intentions, comme le montre l'exemple suivant :
 
@@ -121,13 +121,14 @@ Et voici le résultat final :
 ---  
 
 #### Conclusion
-J'espère que cet article était clair et pourra vous aider pour développer votre propre bot intélligent. N'hésitez pas à télécharger le code source du projet sur github afin de le tester (et l'améliorer), et surtout à lire la documentation officielle. Dans le prochain article, on va montrer comment publier not bot sur Azure. A bientôt !
+J'espère que cet article était clair et pourra vous aider pour développer votre propre bot intélligent. N'hésitez pas à [télécharger le code source du projet sur github][source] afin de le tester (et l'améliorer), et surtout à lire la documentation officielle. Dans le prochain article, on va montrer comment publier not bot sur Azure. A bientôt !
 
 
 [wit]: https://wit.ai/
 [api]: https://api.ai/
 [luis]: https://www.luis.ai/
 [mcs]: https://www.microsoft.com/cognitive-services/en-us/
+[source]: https://github.com/MarouanRejeb/MsBotFramework
 
 [luisCreate]: https://cdn.rawgit.com/MarouanRejeb/marouanrejeb.github.io/205cf835/img/luisCreate.png
 [luisHome]: https://cdn.rawgit.com/MarouanRejeb/marouanrejeb.github.io/205cf835/img/luisHome.png
