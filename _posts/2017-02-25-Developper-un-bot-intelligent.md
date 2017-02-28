@@ -129,13 +129,13 @@ J'espère que cet article était clair et pourra vous aider pour développer vot
 [luis]: https://www.luis.ai/
 [mcs]: https://www.microsoft.com/cognitive-services/en-us/
 
-[luisCreate]: /img/luisCreate.png
-[luisHome]: /img/luisHome.png
-[luisIntent]: /img/luisIntent.png
-[luisIntentSubmit]: /img/luisIntentSubmit.png
-[luisEntity]: /img/luisEntity.png
-[luisUtterance]: /img/luisUtterance.png
-[luisPublish]: /img/luisPublish.png
-[luisQuery]: /img/luisQuery.png
-[WeatherBotResult]: /img/WeatherBotResult.png
-[luisCode]: /img/luisCode.png
+[luisCreate]: https://cdn.rawgit.com/MarouanRejeb/marouanrejeb.github.io/205cf835/img/luisCreate.png
+[luisHome]: https://cdn.rawgit.com/MarouanRejeb/marouanrejeb.github.io/205cf835/img/luisHome.png
+[luisIntent]: https://cdn.rawgit.com/MarouanRejeb/marouanrejeb.github.io/205cf835/img/luisIntent.png
+[luisIntentSubmit]: https://cdn.rawgit.com/MarouanRejeb/marouanrejeb.github.io/205cf835/img/luisIntentSubmit.png
+[luisEntity]: https://cdn.rawgit.com/MarouanRejeb/marouanrejeb.github.io/205cf835/img/luisEntity.png
+[luisUtterance]: https://cdn.rawgit.com/MarouanRejeb/marouanrejeb.github.io/205cf835/img/luisUtterance.png
+[luisPublish]: https://cdn.rawgit.com/MarouanRejeb/marouanrejeb.github.io/205cf835/img/luisPublish.png
+[luisQuery]: https://cdn.rawgit.com/MarouanRejeb/marouanrejeb.github.io/205cf835/img/luisQuery.png
+[WeatherBotResult]: https://cdn.rawgit.com/MarouanRejeb/marouanrejeb.github.io/205cf835/img/WeatherBotResult.png
+[luisCode]: https://cdn.rawgit.com/MarouanRejeb/marouanrejeb.github.io/205cf835/img/luisCode.png
