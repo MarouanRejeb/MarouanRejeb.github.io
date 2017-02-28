@@ -121,7 +121,7 @@ Et voici le résultat final :
 ---  
 
 #### Conclusion
-J'espère que cet article était clair et pourra vous aider pour développer votre propre bot intélligent. N'hésitez pas à télécharger le code source du projet sur github afin de le tester (et l'améliorer), et surtout à lire la documentation officielle. A bientôt !
+J'espère que cet article était clair et pourra vous aider pour développer votre propre bot intélligent. N'hésitez pas à télécharger le code source du projet sur github afin de le tester (et l'améliorer), et surtout à lire la documentation officielle. Dans le prochain article, on va montrer comment publier not bot sur Azure. A bientôt !
 
 
 [wit]: https://wit.ai/
