@@ -39,8 +39,8 @@ Pour commencer, vous devez :
 
 ![alt text][BotApp] 
 
-Lorsque nous allons créer un nouveau projet à l'aide du modèle de bot (le template téléchargé), nous verrons que le bot n'est rien d'autre qu'un simple projet Web Api.  
-En fait, ce bot est un service Web stupide. Cette **Web API** sera hébergée et enregistrée avec _Microsoft Bot Connector_. 
+Lorsque nous créerons un nouveau projet à l'aide du modèle de bot (le template téléchargé), nous verrons que le bot n'est rien d'autre qu'un simple projet Web Api.  
+En fait, ce bot est un service Web basique. Cette **Web API** sera hébergée et enregistrée avec _Microsoft Bot Connector_. 
 Ce connecteur sert d'adaptateur entre notre service Web et différents canaux. 
 
 ![alt text][archi]  

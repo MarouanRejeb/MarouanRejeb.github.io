@@ -12,7 +12,7 @@ author: Marouan REJEB
 Hello ! Comme promis, dans cet article, on va continuer avec le Microsoft Bot Framework.  
 Objectif ? **Développer un bot intélligent**.  
 <!--more-->  
-Comme je l'ai déjà expliqué dans l'article précédent, le bot peut-être utilisé comme assistant personnel (qui va nous rappeler nos RDV ou nos tâches à faire, nous réserver une pizza ou un billet d'avion...etc).
+Comme je l'ai déjà expliqué dans l'article précédent, le bot peut-être utilisé comme assistant personnel (qui va nous rappeler nos RDV ou nos tâches à faire, nous commander une pizza ou réserver un billet d'avion...etc).
 Vous connaissez _Cortana_ l'assistant personnel intélligent de Windows 10, vous lui posez une question, et il vous répond.  
 
 Comment ces bots arrivent-ils à comprendre ce qu'on a demandé, nous les humains ? C'est grâce à un **service intélligent de compréhension de langage**.  
@@ -43,11 +43,11 @@ Pour notre bot de météo, on va commencer par créer l'intention **Météo**, l
 
 ![alt text][luisIntent]  
 
-Ici, je ne vais pas créer une action, car comme vous voyez, cette fonctionnalité sera bientôt supprimée (MS Bot Framework est encore en version _Preview_ au moment de l'écriture de cet article). Quand on enregistre cette nouvelle _intention_, LUIS nous demande de saisir un exemple de phrase qu'il devra mapper à notre _intention_ : "Il fait comment à Paris ?". Ensuite, on choisit l'Intent souhaité et on valide (une manière de dire à LUIS que cette l'intention derrière cette phrase c'est la météo).
+Ici, je ne vais pas créer une action, car comme vous voyez, cette fonctionnalité sera bientôt supprimée (MS Bot Framework est encore en version _Preview_ au moment de l'écriture de cet article). Quand on enregistre cette nouvelle _intention_, LUIS nous demande de saisir un exemple de phrase qu'il devra mapper à notre _intention_ : "Il fait comment à Paris ?". Ensuite, on choisit l'Intent souhaité et on valide (une manière de dire à LUIS que l'intention derrière cette phrase c'est la météo).
 
 ![alt text][luisIntentSubmit]  
 
-Ensuite, on rajoute une entité. Cette variable nous est importante pour notre exemple, car elle va désigner la ville pour laquelle on souhaite avoir l'information. 
+Ensuite, on rajoute une entité. Cette variable est importante pour notre exemple, car elle va désigner la ville pour laquelle on souhaite avoir l'information. 
 
 ![alt text][luisEntity]  
 
@@ -63,7 +63,7 @@ Maintenant que notre modèle est prêt et entrainé, on va le publier en appuyan
 
 ![alt text][luisQuery] 
 
-On clique sur le lien, et un nouvel onglet s'ouvre avec une page web affichant ce résultat en Json : 
+On clique sur le lien, un nouvel onglet s'ouvre avec une page web affichant ce résultat en Json : 
 
 ```json
 {
