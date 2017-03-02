@@ -84,6 +84,10 @@ Une manière plus simple de tester, c'est directement sous l'onglet "_My bots_" 
 
 ![alt text][botAzureTest2]  
 
+On peut également tester le bot sur skype (et oui, on n'a rien à faire). Il suffit de le chercher par le nom qu'on la donné au bot au moment de son enregistrement.  
+
+![alt text][botSkype] 
+
 #### Conclusion  
 
 Tout au long de ces trois derniers articles, on a vu comment développer un bot avec _Microsoft Bot Framework_, le rendre intélligent 
@@ -111,3 +115,4 @@ A bientôt !
 [botPublish6]: /img/botPublish6.png
 [botAzureTest1]: /img/botAzureTest1.png
 [botAzureTest2]: /img/botAzureTest2.png
+[botSkype]: /img/botSkype.png
