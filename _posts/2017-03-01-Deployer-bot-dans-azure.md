@@ -21,8 +21,8 @@ Afin de pouvoir déployer dans Azure, vous devez avoir un abonnement Azure. Vous
 
 #### Enregistrer le bot avec Microsoft Bot Framework 
 
-La première chose qu'on fera, c'est d'enregistrer notre bot.  
-On va sur le site [https://dev.botframework.com][dev] et on se connecte avec notre compte Microsoft. Le menu suivant s'affiche sous l'onglet "_Register a bot_". On saisi le nom du bot, le titre et la description. ensuite, on demande la création de l'**ID** et le **Password** du bot.
+La première chose qu'on fera, sera d'enregistrer notre bot.  
+Il faut aller sur le site [https://dev.botframework.com][dev] et se connecter avec son compte Microsoft. Le menu suivant s'affiche sous l'onglet "_Register a bot_". On saisi le nom du bot, le titre et la description. ensuite, on demande la création de l'**ID** et le **Password** du bot.
 
 ![alt text][botRegister]  
 
@@ -84,14 +84,14 @@ Une manière plus simple de tester, c'est directement sous l'onglet "_My bots_" 
 
 ![alt text][botAzureTest2]  
 
-On peut également tester le bot sur skype (et oui, on n'a rien à faire). Il suffit de le chercher par le nom qu'on la donné au bot au moment de son enregistrement.  
+On peut également tester le bot sur skype (sans rien faire de plus). Il suffit de le chercher par le nom qu'on la donné au bot au moment de son enregistrement.  
 
 ![alt text][botSkype] 
 
 #### Conclusion  
 
 Tout au long de ces trois derniers articles, on a vu comment développer un bot avec _Microsoft Bot Framework_, le rendre intélligent 
-avec _LUIS_, et enfin le déployer dans _Azure_. J'espère que ça pourra vous aider à bien démarrer avec les bots. Et comme d'habitude, n'hésitez pas à me faire part de vos remarques.  
+avec _LUIS_, et enfin le déployer dans _Azure_. J'espère que ça pourra vous aider à bien démarrer avec les bots. N'hésitez pas à me faire part de vos remarques.  
 
 A bientôt !
 
