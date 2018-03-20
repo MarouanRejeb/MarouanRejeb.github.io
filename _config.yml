@@ -41,8 +41,6 @@ avatar: "/img/avatar.jpg"
 
 # --- Background colour/image options --- #
 
-# --- Background colour/image options --- #
-
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
 navbar-col: "#F5F5F5"
@@ -55,6 +53,12 @@ footer-col: "#F5F5F5"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
 
+# Alternatively, the navbar, footer, and page background can be set to use background images
+# instead of colour
+
+# navbar-img: "/img/bgimage.png"
+# footer-img: "/img/bgimage.png"
+# page-img: "/img/bgimage.png"
 
 # --- Footer options --- #
 
@@ -62,50 +66,36 @@ footer-link-col: "#404040"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Marouan REJEB
-  email: "marouan.rejeb@gmail.com"
-  facebook: yourname  
-  github: marouanrejeb   
-  twitter: maroo_king 
-  #reddit: mrejeb   
-  google-plus: +MarouanRejeb 
-  #linkedin: yourname 
-  #xing: yourname  
-  #stackoverflow: yourlink 
-  #snapchat: yourname 
-  instagram: maroo_king 
-  #youtube: yourlink 
-  #spotify: yourname  
-  #telephone: yourphone   # eg. +14159998888
-  #steam: yourname
-  #twitch: yourname
-  #yelp: yourname
 
-# Select which links to show in the footer
-footer-links-active:
-  rss: false
-  facebook: false
-  email: true
-  twitter: true
-  google-plus: true
-  github: true
-  reddit: false
-  linkedin: false
-  xing: false
-  stackoverflow: false
-  snapchat: false
-  instagram: false
-  youtube: false
-  spotify: false
-  telephone: false
-  steam: false
-  twitch: false
-  yelp: false
+# Select your active Social Network Links.
+# Uncomment the links you want to show in the footer and add your information to each link.
+# You can reorder the items to define the link order.
+# If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
+social-network-links:
+  rss: true
+  email: "marouan.rejeb@gmail.com"
+  facebook: Marouan.Rejeb
+  github: MarouanRejeb
+  twitter: MarouanRejeb
+#  reddit: yourname
+  google-plus: +MarouanRejeb 
+#  linkedin: daattali
+#  xing: yourname
+#  stackoverflow: "3943160/daattali"
+#  snapchat: deanat78
+#  instagram: deanat78
+#  youtube: user/deanat78
+#  spotify: yourname
+#  telephone: +14159998888
+#  steam: deanat78
+#  twitch: yourname
+#  yelp: yourname
 
 # Select which share links to show in posts
 share-links-active:
   twitter: true
   facebook: true
-  google: true
+  google: false
   linkedin: true
 
 # How to display the link to the website in the footer
@@ -177,8 +167,8 @@ defaults:
       layout: "page"
       show-avatar: true
 
-# Use tags pages (not recommended if you are deploying via GitHub pages, only set to true if deploying locally with ruby)
-link-tags: false
+# Use tags index page and make tags on each post clickable
+link-tags: true
 
 # Exclude these files from production site
 exclude:
