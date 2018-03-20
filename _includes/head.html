@@ -2,7 +2,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <link rel="author" href="https://plus.google.com/+MarouanRejeb"/>
+
   <title>{% if page.use-site-title %}{{ site.title }} {{ site.title-separator }} {{ site.description }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
   <meta name="author" content="{{ site.author.name }}" />
@@ -88,7 +88,7 @@
   {% elsif site.avatar %}
   <meta property="og:image" content="{{ site.url }}{{ site.avatar }}" />
   {% endif %}
-  
+
 
   <!-- Twitter summary cards -->
   <meta name="twitter:card" content="summary" />
@@ -117,14 +117,8 @@
   <meta name="twitter:image" content="{{ site.url }}{{ site.avatar }}" />
   {% endif %}
 
-  
-<link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon.png">
-<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
-<link rel="manifest" href="img/manifest.json">
-<link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="theme-color" content="#ffffff">
-
-{% seo %}
+  {% if site.matomo %}
+  {% include matomo.html %}
+  {% endif %}
 
 </head>

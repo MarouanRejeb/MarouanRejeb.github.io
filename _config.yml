@@ -112,11 +112,25 @@ share-links-active:
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
 disqus: "jekyllblog-1"
 
+# --- Web Statistics Section --- #
+# ...Beautiful Jekyll integrates with Google Analytics and Matomo(aka Piwik)
+
 # Fill in your Google Analytics ID to track your website using GA
 google_analytics: "UA-88408700-1"
 
 # Google Tag Manager ID
 #gtm: ""
+
+# Matomo (aka Piwik) Web statistics
+# Uncomment this Matomo options to enable tacking:
+# - Provide a valid site id given by your Matomo instance.
+# - Enter the Matomo URI without the protocoll.
+# - Enable/ Disable the Opt-Out feature for users. This will ad a Do-Not-Track option in the footer section.
+
+#  matomo:
+#    site_id: "9"
+#    uri: "demo.wiki.pro"
+#    opt-out: true
 
 # Facebook App ID
 # fb_app_id: ""
@@ -225,7 +239,7 @@ prose:
           label: "Publish"
           help: "Check to publish post, uncheck to hide."
 
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
